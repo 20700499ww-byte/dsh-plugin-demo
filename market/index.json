@@ -12,11 +12,14 @@
     "categories": {
       "example": { "title": { "en": "Examples", "zh": "示例" } },
       "ui": { "title": { "en": "Interface", "zh": "界面" } },
-      "tool": { "title": { "en": "Tools", "zh": "工具" } }
+      "tool": { "title": { "en": "Tools", "zh": "工具" } },
+      "automation": { "title": { "en": "Automation", "zh": "自动化" } }
     },
     "labels": {
       "beginner": { "title": { "en": "Beginner friendly", "zh": "入门友好" } },
-      "no-build": { "title": { "en": "No build step", "zh": "无需构建" } }
+      "no-build": { "title": { "en": "No build step", "zh": "无需构建" } },
+      "windows": { "title": { "en": "Windows only", "zh": "仅 Windows" } },
+      "local-only": { "title": { "en": "Runs locally", "zh": "本地运行" } }
     },
     "sortKeys": {
       "github_stars": { "title": { "en": "GitHub stars", "zh": "GitHub 星标" }, "order": "desc" },
@@ -24,6 +27,40 @@
     }
   },
   "plugins": [
+    {
+      "name": "dsh-plugin-human-input",
+      "title": { "en": "Human Input", "zh": "人手操控" },
+      "description": {
+        "en": "Lets the agent drive the mouse and keyboard like a person: eased gradual cursor movement, press and release, drag, per-character typing. No screenshot-guessing.",
+        "zh": "让 Agent 像人一样操控鼠标键盘：缓动曲线逐步移动、按下抬起、拖拽、逐字输入，而不是截图猜坐标。"
+      },
+      "icon": "icons/human-input.svg",
+      "author": "20700499ww-byte",
+      "homepage": "https://github.com/20700499ww-byte/dsh-plugin-human-input#readme",
+      "repository": {
+        "url": "https://github.com/20700499ww-byte/dsh-plugin-human-input"
+      },
+      "metadata": {
+        "category": "automation",
+        "labels": ["no-build", "windows", "local-only"],
+        "keywords": ["computer use", "mouse", "keyboard", "automation", "human-like"],
+        "sortKeys": {
+          "github_stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794457980,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/20700499ww-byte/dsh-plugin-human-input",
+            "commit": "9859ce39b5d4595439678561bf64140877796eca"
+          },
+          "engines": { "dsh": ">=0.2.0-rc.5 <0.3.0" }
+        }
+      ]
+    },
     {
       "name": "dsh-plugin-demo",
       "title": { "en": "Plugin Demo", "zh": "插件示例" },
