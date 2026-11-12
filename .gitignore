@@ -1,0 +1,29 @@
+# 依赖
+node_modules/
+.pnpm-store/
+
+# 构建产物
+dist/
+lib/
+*.tsbuildinfo
+
+# 密钥与本地环境（绝不提交）
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# 打包产物
+*.tgz
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 日志
+*.log
+npm-debug.log*

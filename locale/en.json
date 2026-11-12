@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Plugin Demo",
+    "description": "A minimal DSH bundle template: logs one line on load and shows how a bundle contributes a configuration layer."
+  }
+}

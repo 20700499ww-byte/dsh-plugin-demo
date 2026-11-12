@@ -1,0 +1,7 @@
+# 这个文件就是本 bundle 向 profile 贡献的“配置层”。
+# 行里的 name 写包名而不是相对路径，安装后由 Node 的模块解析找到真实代码。
+- insert:
+    - id: demo
+      name: dsh-plugin-demo
+      config:
+        greeting: Hello from dsh-plugin-demo

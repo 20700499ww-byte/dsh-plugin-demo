@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "title": {
+    "en": "My DSH Plugins",
+    "zh": "我的 DSH 插件"
+  },
+  "description": {
+    "en": "A personal index of DeepSeek Harness bundles.",
+    "zh": "个人维护的 DeepSeek Harness 插件索引。"
+  },
+  "metadata": {
+    "categories": {
+      "example": { "title": { "en": "Examples", "zh": "示例" } },
+      "ui": { "title": { "en": "Interface", "zh": "界面" } },
+      "tool": { "title": { "en": "Tools", "zh": "工具" } }
+    },
+    "labels": {
+      "beginner": { "title": { "en": "Beginner friendly", "zh": "入门友好" } },
+      "no-build": { "title": { "en": "No build step", "zh": "无需构建" } }
+    },
+    "sortKeys": {
+      "github_stars": { "title": { "en": "GitHub stars", "zh": "GitHub 星标" }, "order": "desc" },
+      "npm_weekly_downloads": { "title": { "en": "Weekly downloads", "zh": "周下载量" }, "order": "desc" }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-plugin-demo",
+      "title": { "en": "Plugin Demo", "zh": "插件示例" },
+      "description": {
+        "en": "A minimal DSH bundle template that logs one line on load.",
+        "zh": "最小 DSH bundle 模板，加载时打印一行日志。"
+      },
+      "icon": "icons/demo.svg",
+      "author": "<YOUR NAME>",
+      "homepage": "https://github.com/<YOUR NAME>/dsh-plugin-demo#readme",
+      "repository": {
+        "url": "https://github.com/<YOUR NAME>/dsh-plugin-demo"
+      },
+      "metadata": {
+        "category": "example",
+        "labels": ["beginner", "no-build"],
+        "keywords": ["template", "starter", "hello world"],
+        "sortKeys": {
+          "github_stars": 0
+        }
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1794441600,
+          "source": { "type": "npm" },
+          "engines": { "dsh": ">=0.2.0-rc.5 <0.3.0" }
+        }
+      ]
+    }
+  ]
+}

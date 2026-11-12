@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "插件示例",
+    "description": "最小 DSH bundle 模板：加载时打印一行日志，并演示 bundle 如何贡献一个配置层。"
+  }
+}
