@@ -16,6 +16,7 @@
     "cordis.patch.yml",
     "locale/*.json",
     "icon.svg",
+    ".gitattributes",
     "README.md",
     "LICENSE"
   ],
@@ -30,6 +31,12 @@
     "dsh": ">=0.2.0-rc.5 <0.3.0"
   },
   "license": "MIT",
+  "author": "20700499ww-byte",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/20700499ww-byte/dsh-plugin-demo.git"
+  },
+  "homepage": "https://github.com/20700499ww-byte/dsh-plugin-demo#readme",
   "dsh": {
     "manifestVersion": 1,
     "bundle": {

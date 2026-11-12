@@ -32,10 +32,10 @@
         "zh": "最小 DSH bundle 模板，加载时打印一行日志。"
       },
       "icon": "icons/demo.svg",
-      "author": "<YOUR NAME>",
-      "homepage": "https://github.com/<YOUR NAME>/dsh-plugin-demo#readme",
+      "author": "20700499ww-byte",
+      "homepage": "https://github.com/20700499ww-byte/dsh-plugin-demo#readme",
       "repository": {
-        "url": "https://github.com/<YOUR NAME>/dsh-plugin-demo"
+        "url": "https://github.com/20700499ww-byte/dsh-plugin-demo"
       },
       "metadata": {
         "category": "example",
