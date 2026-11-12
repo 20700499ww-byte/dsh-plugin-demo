@@ -55,7 +55,7 @@
           "source": {
             "type": "git",
             "url": "https://github.com/20700499ww-byte/dsh-plugin-human-input",
-            "commit": "9859ce39b5d4595439678561bf64140877796eca"
+            "commit": "69b2965429a4f609f0e9a5f105a3f481f16170f1"
           },
           "engines": { "dsh": ">=0.2.0-rc.5 <0.3.0" }
         }
