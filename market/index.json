@@ -48,8 +48,12 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1794441600,
-          "source": { "type": "npm" },
+          "publishTimestamp": 1794453120,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/20700499ww-byte/dsh-plugin-demo",
+            "commit": "62345397bb97120ac4d5b802c1caad178c737526"
+          },
           "engines": { "dsh": ">=0.2.0-rc.5 <0.3.0" }
         }
       ]
