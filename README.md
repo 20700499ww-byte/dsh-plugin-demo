@@ -1,8 +1,8 @@
 # dsh-plugin-demo
 
-A minimal, working DeepSeek Harness (DSH) bundle template. Use it as a starting point: swap the logic in `index.js` for your own plugin, leave the rest of the files alone.
+一个最小可用的 DeepSeek Harness（DSH）bundle 模板。拿它当起点，把 `index.js` 换成自己的插件逻辑，其余文件不用动。
 
-> Third-party project built on DeepSeek Harness. Not an official one.
+> 第三方项目，built on DeepSeek Harness，非官方。
 
 ## What it does
 
