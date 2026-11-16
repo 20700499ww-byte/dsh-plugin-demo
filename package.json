@@ -1,7 +1,7 @@
 {
   "name": "dsh-plugin-demo",
   "version": "0.1.0",
-  "description": "最小 DSH bundle 模板：一个插件包由哪些文件组成、怎样被 profile 加载、怎样发布到 npm 或插件索引。 A minimal DeepSeek Harness bundle template: what files a plugin package needs, how a profile loads it, and how to publish it to npm or a plugin index.",
+  "description": "A minimal DeepSeek Harness bundle template: what files a plugin package needs, how a profile loads it, and how to publish it to npm or a plugin index.",
   "type": "module",
   "main": "index.js",
   "exports": {
