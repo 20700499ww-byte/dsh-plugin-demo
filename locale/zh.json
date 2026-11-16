@@ -1,6 +1,6 @@
 {
   "meta": {
-    "title": "插件示例",
-    "description": "最小 DSH bundle 模板：加载时打印一行日志，并演示 bundle 如何贡献一个配置层。"
+    "title": "Plugin Demo",
+    "description": "最小 DSH bundle 模板，演示一个插件包由哪些文件组成、怎样被 profile 加载、怎样发布到 npm 或插件索引。\n\nA minimal DSH bundle template: what files a plugin package needs, how a profile loads it, and how to publish it to npm or a plugin index."
   }
 }
