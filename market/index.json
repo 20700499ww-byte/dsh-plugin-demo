@@ -116,11 +116,11 @@
       "versions": [
         {
           "version": "0.3.0",
-          "publishTimestamp": 1794700800,
+          "publishTimestamp": 1794813646,
           "source": {
             "type": "git",
             "url": "https://github.com/20700499ww-byte/dsh-plugin-human-input",
-            "commit": "7147e2a0c8b1b18390fc5e1dee3a620f8b835a6e"
+            "commit": "928bae900c86263757fad7f638ceb09c8cf9cc55"
           },
           "engines": {
             "dsh": ">=0.2.0-rc.5 <0.3.0"
@@ -162,11 +162,11 @@
       "versions": [
         {
           "version": "0.1.0",
-          "publishTimestamp": 1794453120,
+          "publishTimestamp": 1794813647,
           "source": {
             "type": "git",
             "url": "https://github.com/20700499ww-byte/dsh-plugin-demo",
-            "commit": "62345397bb97120ac4d5b802c1caad178c737526"
+            "commit": "7b82a9aebc09df450ecf9fe3f3685f60496567d7"
           },
           "engines": {
             "dsh": ">=0.2.0-rc.5 <0.3.0"
